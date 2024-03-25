@@ -1,7 +1,6 @@
 package com.fournier.myriam.JO.POJO;
 
 import com.fournier.myriam.JO.POJO.Composite.CompositeKeys;
-import com.fournier.myriam.JO.POJO.Composite.CompositeSalesKey;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

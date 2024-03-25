@@ -1,6 +1,6 @@
 package com.fournier.myriam.JO.POJO.Composite;
 
-import jakarta.persistence.Entity;
+
 import lombok.Getter;
 import lombok.Setter;
 
