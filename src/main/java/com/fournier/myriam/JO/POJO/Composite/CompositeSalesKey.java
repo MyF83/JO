@@ -11,7 +11,6 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-@Entity
 public class CompositeSalesKey implements Serializable{
 
     private Long sale_id;

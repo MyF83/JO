@@ -1,9 +1,8 @@
 package com.fournier.myriam.JO.POJO;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fournier.myriam.JO.POJO.Composite.CompositeKeys;
+import com.fournier.myriam.JO.POJO.Composite.CompositeSalesKey;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,11 +10,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
+@IdClass(CompositeKeys.class)
 public class Keys {
     @Id
-    @GeneratedValue (strategy = GenerationType.AUTO)
     private Long key_id;
 
+    @Id
     private String key_key;
 
     public Keys(String key_key) {

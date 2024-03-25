@@ -8,7 +8,6 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-@Entity
 public class CompositeUsersKey implements Serializable {
 
         private Long user_id;

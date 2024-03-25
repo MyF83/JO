@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-@Entity
 public class CompositeTicketsKey implements Serializable{
 
     private Long ticket_id;
