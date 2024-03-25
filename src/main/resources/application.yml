@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://mysql-myf83.alwaysdata.net/myf83_bj_intersp_bdd
+    username: myf83_B3_JO
+    password: 6b:43855$fd#c24959!997cb6e983
+      driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
